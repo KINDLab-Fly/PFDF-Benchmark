@@ -37,15 +37,10 @@
     "results/region_performance/original_nn_minus_usgs_region_relative_improvement_percent_heatmap.png": "182e250fd3ffe25fceb239c8a0f1badffdac527d288ad2c556e9e8d5f083b360",
     "results/region_performance/original_nn_minus_usgs_region_relative_improvement_percent_wide.csv": "6070bb80e31829800ac3d76bb542769259399093cf465e9fa887d8a24663a5d3",
     "results/rl_feature_selection_augmented_70-15-15_feature_mean.csv": "cef289fd2b265a272e9dddd3d193da403b921f170486033a2633d2f7c4b0bd76",
-    "paper/conclusion.tex": "c5394c6322eb09feecfd9cefe7a2baee1e16a297e7e9edce2f192de3b970d99d",
-    "paper/experiment.tex": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "paper/introduction.tex": "9d5dac4882049513c28c90fa173cdac0a31efeaf972024ca03254cf518276758",
-    "paper/main.bib": "034f2bede70d9acb62aaf9ca72510053e0cbb5d328bf95dc763bad06cf560876",
-    "paper/main.tex": "356982b0adcc4a0a23988cfb66d47c99eca049c3cdb39757c3f3a6f02519a9b0",
-    "paper/physics_model.tex": "e9fe9e6c67d0ce967cc41633cc789318a3915d25169c1f4c1d28f687cbf51ec7",
-    "paper/preliminary.tex": "2fe506ca5725d63c61f779c3f3f6057a3006334f28e193e521b3dec57383c085",
     "figures/Framework.pdf": "359f7e4f475f4b466d3d6f2bc154616b9591f100d8848ae590e31741da2fb51c",
     "figures/USGS_analysis.pdf": "a11c173da27336d65af45f87e725f466c9b77edd51fd541df5328b3b1f076e0f",
-    "figures/top10.pdf": "ec397da1471acae617437ac04659f4690da432c0678693c6e5e7816860dee6b3"
-  }
+    "figures/top10.pdf": "ec397da1471acae617437ac04659f4690da432c0678693c6e5e7816860dee6b3",
+    "validation/benchmark-reference.csv": "20360a6e051fd9b3c7b32931c548203ddb69be46a9e836991b8d019817e66f58"
+  },
+  "benchmark_reference": "Numeric Table 2 values at published precision; paper sources excluded."
 }

@@ -38,7 +38,7 @@ python scripts/reproduce_all.py
 This generates Table 1's weather example, the 52 benchmark cells in Table 2,
 the 40 regional cells in Table 3, and copies all three archived figure PDFs into
 `outputs/`. It verifies immutable input checksums and compares Table 2 with the
-LaTeX paper snapshot. The inputs and their provenance are recorded in
+numeric reference in `validation/benchmark-reference.csv`. The inputs and their provenance are recorded in
 `release-manifest.json`. The same command also independently recomputes all
 52 benchmark cells, 40 regional cells, and 230 feature-importance mean/std rows
 from portable exports of 640 historical model checkpoints and 50 policy
@@ -58,7 +58,7 @@ Figure numbering in the current paper is:
 | Artifact | Meaning | Authoritative input |
 |---|---|---|
 | Figure 1 | Benchmark workflow | `figures/Framework.pdf` |
-| Table 1 | AFD to 18 structured indicators | `scripts/make_table1_weather_prompt.py`, `paper/preliminary.tex` |
+| Table 1 | AFD to 18 structured indicators | `scripts/make_table1_weather_prompt.py` |
 | Table 2 | Original and selected-augmented benchmark | `results/baseline_*_clean_table.csv` |
 | Figure 2 | Global and regional top-10 feature importance | `results/rl_feature_selection_augmented_70-15-15_feature_mean.csv` |
 | Table 3 | Regional NN minus fixed-USGS Threat Score | `results/region_performance/*absolute_improvement_long_with_counts.csv` |
@@ -213,15 +213,15 @@ bit-identical regeneration of those outputs from a changing hosted model.
 ```text
 data/        Processed workbook and cached derived features
 figures/     Exact archived paper figure PDFs
-paper/       Reference LaTeX snapshot identified in release-manifest.json
 results/     Curated results and completed hyperparameter searches
 scripts/     Artifact, training, verification and plotting entrypoints
 src/         Canonical research modules adapted to this standalone layout
 tests/       Dataset, split, feature-scaling and metric contract checks
+validation/  Numeric benchmark reference and verification reports
 outputs/     Generated artifacts (ignored by Git)
 ```
 
-The release intentionally excludes API credentials, unrelated experimental
+The release intentionally excludes manuscript sources, API credentials, unrelated experimental
 models, large raw caches, trained model weights and local absolute-path symlinks.
 Compact historical prediction/policy exports remain included as verification evidence.
 GitHub Actions reconstructs the saved artifacts and exercises a real model smoke

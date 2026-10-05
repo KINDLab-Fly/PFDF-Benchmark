@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "input_checksums": 35,
+  "input_checksums": 34,
   "benchmark_cells": 52,
   "regional_cells": 40,
   "paper_rounding_difference": "NAZ 60/20/20: computed +0.11; original paper +0.12",

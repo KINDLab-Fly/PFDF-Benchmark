@@ -5,7 +5,6 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
-import re
 
 import numpy as np
 import pandas as pd
@@ -18,11 +17,11 @@ def main():
     for name, digest in manifest["sha256"].items():
         assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, name
     table = pd.read_csv(ROOT / "outputs/table2_baseline_benchmark.csv")
-    paper = (ROOT / "paper/physics_model.tex").read_text()
-    paper_table = re.search(r"\\begin\{tabularx?\}.*?\\end\{tabularx?\}", paper, re.S)[0]
-    cells = re.findall(r"(\d\.\d{3})\s*\\pm\s*(\d\.\d{3})", paper_table)
-    assert len(cells) == 52
-    expected = [tuple(map(float, c)) for c in cells]
+    reference = pd.read_csv(ROOT / "validation/benchmark-reference.csv")
+    assert len(reference) == 52
+    assert reference["Method"].tolist() == [method for method in table.Method for _ in range(4)]
+    assert reference["Ratio"].tolist() == list(table.columns[1:]) * len(table)
+    expected = reference[["Mean_TS", "Std_TS"]].to_numpy()
     got = [tuple(map(float, value.split(" +/- "))) for value in table.iloc[:, 1:].to_numpy().flat]
     assert len(got) == len(expected)
     assert np.allclose(got, expected, rtol=0, atol=0.00050001)
