@@ -1,0 +1,2515 @@
+{
+  "50/25/25": {
+    "FullLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "FullLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4793388429752066,
+            "precision": 0.5420560747663551,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.776595744680851,
+            "TP": 58,
+            "TN": 161,
+            "FP": 49,
+            "FN": 14,
+            "AUC": 0.853505291005291
+          },
+          "test_metrics": {
+            "TS": 0.45161290322580644,
+            "precision": 0.5333333333333333,
+            "recall": 0.7466666666666667,
+            "accuracy": 0.7614035087719299,
+            "TP": 56,
+            "TN": 161,
+            "FP": 49,
+            "FN": 19,
+            "AUC": 0.8367619047619048
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4793388429752066,
+            "precision": 0.5420560747663551,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.776595744680851,
+            "TP": 58,
+            "TN": 161,
+            "FP": 49,
+            "FN": 14,
+            "AUC": 0.8775132275132276
+          },
+          "test_metrics": {
+            "TS": 0.42063492063492064,
+            "precision": 0.5096153846153846,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.743859649122807,
+            "TP": 53,
+            "TN": 159,
+            "FP": 51,
+            "FN": 22,
+            "AUC": 0.8158730158730159
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.44036697247706424,
+            "precision": 0.5647058823529412,
+            "recall": 0.6666666666666666,
+            "accuracy": 0.7836879432624113,
+            "TP": 48,
+            "TN": 173,
+            "FP": 37,
+            "FN": 24,
+            "AUC": 0.8203042328042327
+          },
+          "test_metrics": {
+            "TS": 0.4838709677419355,
+            "precision": 0.5504587155963303,
+            "recall": 0.8,
+            "accuracy": 0.775438596491228,
+            "TP": 60,
+            "TN": 161,
+            "FP": 49,
+            "FN": 15,
+            "AUC": 0.8528888888888889
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5178571428571429,
+            "precision": 0.5918367346938775,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.8085106382978723,
+            "TP": 58,
+            "TN": 170,
+            "FP": 40,
+            "FN": 14,
+            "AUC": 0.8737433862433863
+          },
+          "test_metrics": {
+            "TS": 0.4297520661157025,
+            "precision": 0.5306122448979592,
+            "recall": 0.6933333333333334,
+            "accuracy": 0.7578947368421053,
+            "TP": 52,
+            "TN": 164,
+            "FP": 46,
+            "FN": 23,
+            "AUC": 0.8166349206349207
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.5,
+            "recall": 0.75,
+            "accuracy": 0.7446808510638298,
+            "TP": 54,
+            "TN": 156,
+            "FP": 54,
+            "FN": 18,
+            "AUC": 0.839021164021164
+          },
+          "test_metrics": {
+            "TS": 0.45689655172413796,
+            "precision": 0.5638297872340425,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.7789473684210526,
+            "TP": 53,
+            "TN": 169,
+            "FP": 41,
+            "FN": 22,
+            "AUC": 0.844952380952381
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.4485534818885005,
+      "std_over_split_seeds": 0.02217760572172107
+    },
+    "PenalizedLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "PenalizedLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4793388429752066,
+            "precision": 0.5420560747663551,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.776595744680851,
+            "TP": 58,
+            "TN": 161,
+            "FP": 49,
+            "FN": 14,
+            "AUC": 0.8535052910052909
+          },
+          "test_metrics": {
+            "TS": 0.45161290322580644,
+            "precision": 0.5333333333333333,
+            "recall": 0.7466666666666667,
+            "accuracy": 0.7614035087719299,
+            "TP": 56,
+            "TN": 161,
+            "FP": 49,
+            "FN": 19,
+            "AUC": 0.8372063492063492
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 0.1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4956521739130435,
+            "precision": 0.57,
+            "recall": 0.7916666666666666,
+            "accuracy": 0.7943262411347518,
+            "TP": 57,
+            "TN": 167,
+            "FP": 43,
+            "FN": 15,
+            "AUC": 0.875925925925926
+          },
+          "test_metrics": {
+            "TS": 0.41732283464566927,
+            "precision": 0.5047619047619047,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.7403508771929824,
+            "TP": 53,
+            "TN": 158,
+            "FP": 52,
+            "FN": 22,
+            "AUC": 0.821015873015873
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4444444444444444,
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "accuracy": 0.7872340425531915,
+            "TP": 48,
+            "TN": 174,
+            "FP": 36,
+            "FN": 24,
+            "AUC": 0.8201719576719577
+          },
+          "test_metrics": {
+            "TS": 0.4838709677419355,
+            "precision": 0.5504587155963303,
+            "recall": 0.8,
+            "accuracy": 0.775438596491228,
+            "TP": 60,
+            "TN": 161,
+            "FP": 49,
+            "FN": 15,
+            "AUC": 0.853015873015873
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5178571428571429,
+            "precision": 0.5918367346938775,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.8085106382978723,
+            "TP": 58,
+            "TN": 170,
+            "FP": 40,
+            "FN": 14,
+            "AUC": 0.8733465608465608
+          },
+          "test_metrics": {
+            "TS": 0.4297520661157025,
+            "precision": 0.5306122448979592,
+            "recall": 0.6933333333333334,
+            "accuracy": 0.7578947368421053,
+            "TP": 52,
+            "TN": 164,
+            "FP": 46,
+            "FN": 23,
+            "AUC": 0.817015873015873
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4444444444444444,
+            "precision": 0.509090909090909,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.75177304964539,
+            "TP": 56,
+            "TN": 156,
+            "FP": 54,
+            "FN": 16,
+            "AUC": 0.8388227513227514
+          },
+          "test_metrics": {
+            "TS": 0.452991452991453,
+            "precision": 0.5578947368421052,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.775438596491228,
+            "TP": 53,
+            "TN": 168,
+            "FP": 42,
+            "FN": 22,
+            "AUC": 0.8452698412698413
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.4471100449441134,
+      "std_over_split_seeds": 0.022780735127045645
+    },
+    "CART": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "CART",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": 4,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.46153846153846156,
+            "precision": 0.5454545454545454,
+            "recall": 0.75,
+            "accuracy": 0.776595744680851,
+            "TP": 54,
+            "TN": 165,
+            "FP": 45,
+            "FN": 18,
+            "AUC": 0.7656415343915344
+          },
+          "test_metrics": {
+            "TS": 0.5,
+            "precision": 0.6111111111111112,
+            "recall": 0.7333333333333333,
+            "accuracy": 0.8070175438596491,
+            "TP": 55,
+            "TN": 175,
+            "FP": 35,
+            "FN": 20,
+            "AUC": 0.7938412698412698
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.53,
+            "precision": 0.654320987654321,
+            "recall": 0.7361111111111112,
+            "accuracy": 0.8333333333333334,
+            "TP": 53,
+            "TN": 182,
+            "FP": 28,
+            "FN": 19,
+            "AUC": 0.8013888888888889
+          },
+          "test_metrics": {
+            "TS": 0.5047619047619047,
+            "precision": 0.6385542168674698,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.8175438596491228,
+            "TP": 53,
+            "TN": 180,
+            "FP": 30,
+            "FN": 22,
+            "AUC": 0.7819047619047619
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5595238095238095,
+            "precision": 0.7966101694915254,
+            "recall": 0.6527777777777778,
+            "accuracy": 0.8687943262411347,
+            "TP": 47,
+            "TN": 198,
+            "FP": 12,
+            "FN": 25,
+            "AUC": 0.7978174603174603
+          },
+          "test_metrics": {
+            "TS": 0.5842696629213483,
+            "precision": 0.7878787878787878,
+            "recall": 0.6933333333333334,
+            "accuracy": 0.8701754385964913,
+            "TP": 52,
+            "TN": 196,
+            "FP": 14,
+            "FN": 23,
+            "AUC": 0.8133333333333334
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 5,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4857142857142857,
+            "precision": 0.6071428571428571,
+            "recall": 0.7083333333333334,
+            "accuracy": 0.8085106382978723,
+            "TP": 51,
+            "TN": 177,
+            "FP": 33,
+            "FN": 21,
+            "AUC": 0.7836970899470899
+          },
+          "test_metrics": {
+            "TS": 0.5047619047619047,
+            "precision": 0.6385542168674698,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.8175438596491228,
+            "TP": 53,
+            "TN": 180,
+            "FP": 30,
+            "FN": 22,
+            "AUC": 0.8161904761904764
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": 5,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5084745762711864,
+            "precision": 0.5660377358490566,
+            "recall": 0.8333333333333334,
+            "accuracy": 0.7943262411347518,
+            "TP": 60,
+            "TN": 164,
+            "FP": 46,
+            "FN": 12,
+            "AUC": 0.832936507936508
+          },
+          "test_metrics": {
+            "TS": 0.5225225225225225,
+            "precision": 0.6170212765957447,
+            "recall": 0.7733333333333333,
+            "accuracy": 0.8140350877192982,
+            "TP": 58,
+            "TN": 174,
+            "FP": 36,
+            "FN": 17,
+            "AUC": 0.8157777777777778
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5232631989935361,
+      "std_over_split_seeds": 0.031458256297874534
+    }
+  },
+  "60/20/20": {
+    "FullLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "FullLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5319148936170213,
+            "precision": 0.5882352941176471,
+            "recall": 0.847457627118644,
+            "accuracy": 0.8061674008810573,
+            "TP": 50,
+            "TN": 133,
+            "FP": 35,
+            "FN": 9,
+            "AUC": 0.8799435028248588
+          },
+          "test_metrics": {
+            "TS": 0.41414141414141414,
+            "precision": 0.5,
+            "recall": 0.7068965517241379,
+            "accuracy": 0.7422222222222222,
+            "TP": 41,
+            "TN": 126,
+            "FP": 41,
+            "FN": 17,
+            "AUC": 0.8170555440842453
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4948453608247423,
+            "precision": 0.5581395348837209,
+            "recall": 0.8135593220338984,
+            "accuracy": 0.7841409691629956,
+            "TP": 48,
+            "TN": 130,
+            "FP": 38,
+            "FN": 11,
+            "AUC": 0.8812550443906376
+          },
+          "test_metrics": {
+            "TS": 0.422680412371134,
+            "precision": 0.5125,
+            "recall": 0.7068965517241379,
+            "accuracy": 0.7511111111111111,
+            "TP": 41,
+            "TN": 128,
+            "FP": 39,
+            "FN": 17,
+            "AUC": 0.823043568036341
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4479166666666667,
+            "precision": 0.5375,
+            "recall": 0.7288135593220338,
+            "accuracy": 0.7665198237885462,
+            "TP": 43,
+            "TN": 131,
+            "FP": 37,
+            "FN": 16,
+            "AUC": 0.8211259079903148
+          },
+          "test_metrics": {
+            "TS": 0.4842105263157895,
+            "precision": 0.5542168674698795,
+            "recall": 0.7931034482758621,
+            "accuracy": 0.7822222222222223,
+            "TP": 46,
+            "TN": 130,
+            "FP": 37,
+            "FN": 12,
+            "AUC": 0.8588684699566385
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5168539325842697,
+            "precision": 0.6052631578947368,
+            "recall": 0.7796610169491526,
+            "accuracy": 0.8105726872246696,
+            "TP": 46,
+            "TN": 138,
+            "FP": 30,
+            "FN": 13,
+            "AUC": 0.8606739305891848
+          },
+          "test_metrics": {
+            "TS": 0.4020618556701031,
+            "precision": 0.5,
+            "recall": 0.6724137931034483,
+            "accuracy": 0.7422222222222222,
+            "TP": 39,
+            "TN": 128,
+            "FP": 39,
+            "FN": 19,
+            "AUC": 0.8080735081561016
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.4931506849315068,
+            "precision": 0.72,
+            "recall": 0.6101694915254238,
+            "accuracy": 0.8370044052863436,
+            "TP": 36,
+            "TN": 154,
+            "FP": 14,
+            "FN": 23,
+            "AUC": 0.8667271993543181
+          },
+          "test_metrics": {
+            "TS": 0.3230769230769231,
+            "precision": 0.75,
+            "recall": 0.3620689655172414,
+            "accuracy": 0.8044444444444444,
+            "TP": 21,
+            "TN": 160,
+            "FP": 7,
+            "FN": 37,
+            "AUC": 0.8256246128432789
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.40923422631507284,
+      "std_over_split_seeds": 0.05157683545072144
+    },
+    "PenalizedLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "PenalizedLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "elasticnet",
+            "C": 0.1,
+            "l1_ratio": 0.25,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.532608695652174,
+            "precision": 0.5975609756097561,
+            "recall": 0.8305084745762712,
+            "accuracy": 0.8105726872246696,
+            "TP": 49,
+            "TN": 135,
+            "FP": 33,
+            "FN": 10,
+            "AUC": 0.8744955609362389
+          },
+          "test_metrics": {
+            "TS": 0.4166666666666667,
+            "precision": 0.5128205128205128,
+            "recall": 0.6896551724137931,
+            "accuracy": 0.7511111111111111,
+            "TP": 40,
+            "TN": 129,
+            "FP": 38,
+            "FN": 18,
+            "AUC": 0.8159198843691926
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.5074626865671642,
+            "precision": 0.8095238095238095,
+            "recall": 0.576271186440678,
+            "accuracy": 0.8546255506607929,
+            "TP": 34,
+            "TN": 160,
+            "FP": 8,
+            "FN": 25,
+            "AUC": 0.8756053268765133
+          },
+          "test_metrics": {
+            "TS": 0.3150684931506849,
+            "precision": 0.6052631578947368,
+            "recall": 0.39655172413793105,
+            "accuracy": 0.7777777777777778,
+            "TP": 23,
+            "TN": 152,
+            "FP": 15,
+            "FN": 35,
+            "AUC": 0.8250051620896138
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4479166666666667,
+            "precision": 0.5375,
+            "recall": 0.7288135593220338,
+            "accuracy": 0.7665198237885462,
+            "TP": 43,
+            "TN": 131,
+            "FP": 37,
+            "FN": 16,
+            "AUC": 0.8215294592413236
+          },
+          "test_metrics": {
+            "TS": 0.4842105263157895,
+            "precision": 0.5542168674698795,
+            "recall": 0.7931034482758621,
+            "accuracy": 0.7822222222222223,
+            "TP": 46,
+            "TN": 130,
+            "FP": 37,
+            "FN": 12,
+            "AUC": 0.8594879207103034
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5168539325842697,
+            "precision": 0.6052631578947368,
+            "recall": 0.7796610169491526,
+            "accuracy": 0.8105726872246696,
+            "TP": 46,
+            "TN": 138,
+            "FP": 30,
+            "FN": 13,
+            "AUC": 0.8608757062146892
+          },
+          "test_metrics": {
+            "TS": 0.4020618556701031,
+            "precision": 0.5,
+            "recall": 0.6724137931034483,
+            "accuracy": 0.7422222222222222,
+            "TP": 39,
+            "TN": 128,
+            "FP": 39,
+            "FN": 19,
+            "AUC": 0.807970266363824
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.4931506849315068,
+            "precision": 0.72,
+            "recall": 0.6101694915254238,
+            "accuracy": 0.8370044052863436,
+            "TP": 36,
+            "TN": 154,
+            "FP": 14,
+            "FN": 23,
+            "AUC": 0.8664245359160614
+          },
+          "test_metrics": {
+            "TS": 0.3230769230769231,
+            "precision": 0.75,
+            "recall": 0.3620689655172414,
+            "accuracy": 0.8044444444444444,
+            "TP": 21,
+            "TN": 160,
+            "FP": 7,
+            "FN": 37,
+            "AUC": 0.826244063596944
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.3882168929760334,
+      "std_over_split_seeds": 0.06294402963313042
+    },
+    "CART": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "CART",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5526315789473685,
+            "precision": 0.711864406779661,
+            "recall": 0.711864406779661,
+            "accuracy": 0.8502202643171806,
+            "TP": 42,
+            "TN": 151,
+            "FP": 17,
+            "FN": 17,
+            "AUC": 0.8053369652945924
+          },
+          "test_metrics": {
+            "TS": 0.4533333333333333,
+            "precision": 0.6666666666666666,
+            "recall": 0.5862068965517241,
+            "accuracy": 0.8177777777777778,
+            "TP": 34,
+            "TN": 150,
+            "FP": 17,
+            "FN": 24,
+            "AUC": 0.7422052446830477
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5526315789473685,
+            "precision": 0.711864406779661,
+            "recall": 0.711864406779661,
+            "accuracy": 0.8502202643171806,
+            "TP": 42,
+            "TN": 151,
+            "FP": 17,
+            "FN": 17,
+            "AUC": 0.8053369652945924
+          },
+          "test_metrics": {
+            "TS": 0.5428571428571428,
+            "precision": 0.76,
+            "recall": 0.6551724137931034,
+            "accuracy": 0.8577777777777778,
+            "TP": 38,
+            "TN": 155,
+            "FP": 12,
+            "FN": 20,
+            "AUC": 0.7916580631839769
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": 5,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5393258426966292,
+            "precision": 0.6153846153846154,
+            "recall": 0.8135593220338984,
+            "accuracy": 0.8193832599118943,
+            "TP": 48,
+            "TN": 138,
+            "FP": 30,
+            "FN": 11,
+            "AUC": 0.8260694108151735
+          },
+          "test_metrics": {
+            "TS": 0.569620253164557,
+            "precision": 0.6818181818181818,
+            "recall": 0.7758620689655172,
+            "accuracy": 0.8488888888888889,
+            "TP": 45,
+            "TN": 146,
+            "FP": 21,
+            "FN": 13,
+            "AUC": 0.8324901920297336
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.5657894736842105,
+            "precision": 0.7166666666666667,
+            "recall": 0.7288135593220338,
+            "accuracy": 0.8546255506607929,
+            "TP": 43,
+            "TN": 151,
+            "FP": 17,
+            "FN": 16,
+            "AUC": 0.8138115415657788
+          },
+          "test_metrics": {
+            "TS": 0.5066666666666667,
+            "precision": 0.6909090909090909,
+            "recall": 0.6551724137931034,
+            "accuracy": 0.8355555555555556,
+            "TP": 38,
+            "TN": 150,
+            "FP": 17,
+            "FN": 20,
+            "AUC": 0.7766880033037373
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 10,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.5641025641025641,
+            "precision": 0.6984126984126984,
+            "recall": 0.7457627118644068,
+            "accuracy": 0.8502202643171806,
+            "TP": 44,
+            "TN": 149,
+            "FP": 19,
+            "FN": 15,
+            "AUC": 0.8899818401937046
+          },
+          "test_metrics": {
+            "TS": 0.47297297297297297,
+            "precision": 0.6862745098039216,
+            "recall": 0.603448275862069,
+            "accuracy": 0.8266666666666667,
+            "TP": 35,
+            "TN": 151,
+            "FP": 16,
+            "FN": 23,
+            "AUC": 0.8627400371670453
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5090900737989346,
+      "std_over_split_seeds": 0.04294938776831644
+    }
+  },
+  "70/15/15": {
+    "FullLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "FullLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5,
+            "precision": 0.6071428571428571,
+            "recall": 0.7391304347826086,
+            "accuracy": 0.8034682080924855,
+            "TP": 34,
+            "TN": 105,
+            "FP": 22,
+            "FN": 12,
+            "AUC": 0.8462855186579938
+          },
+          "test_metrics": {
+            "TS": 0.4305555555555556,
+            "precision": 0.5,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.75,
+            "TP": 31,
+            "TN": 92,
+            "FP": 31,
+            "FN": 10,
+            "AUC": 0.8437438032916914
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.3924050632911392,
+            "precision": 0.484375,
+            "recall": 0.6739130434782609,
+            "accuracy": 0.7225433526011561,
+            "TP": 31,
+            "TN": 94,
+            "FP": 33,
+            "FN": 15,
+            "AUC": 0.8099965765148922
+          },
+          "test_metrics": {
+            "TS": 0.43661971830985913,
+            "precision": 0.5081967213114754,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.7560975609756098,
+            "TP": 31,
+            "TN": 93,
+            "FP": 30,
+            "FN": 10,
+            "AUC": 0.8187586753916319
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4675324675324675,
+            "precision": 0.5373134328358209,
+            "recall": 0.782608695652174,
+            "accuracy": 0.7630057803468208,
+            "TP": 36,
+            "TN": 96,
+            "FP": 31,
+            "FN": 10,
+            "AUC": 0.8500513522766177
+          },
+          "test_metrics": {
+            "TS": 0.5072463768115942,
+            "precision": 0.5555555555555556,
+            "recall": 0.8536585365853658,
+            "accuracy": 0.7926829268292683,
+            "TP": 35,
+            "TN": 95,
+            "FP": 28,
+            "FN": 6,
+            "AUC": 0.8607971445568114
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.515625,
+            "precision": 0.6470588235294118,
+            "recall": 0.717391304347826,
+            "accuracy": 0.8208092485549133,
+            "TP": 33,
+            "TN": 109,
+            "FP": 18,
+            "FN": 13,
+            "AUC": 0.8505648750427935
+          },
+          "test_metrics": {
+            "TS": 0.4027777777777778,
+            "precision": 0.48333333333333334,
+            "recall": 0.7073170731707317,
+            "accuracy": 0.7378048780487805,
+            "TP": 29,
+            "TN": 92,
+            "FP": 31,
+            "FN": 12,
+            "AUC": 0.8126115407495538
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4305555555555556,
+            "precision": 0.543859649122807,
+            "recall": 0.6739130434782609,
+            "accuracy": 0.7630057803468208,
+            "TP": 31,
+            "TN": 101,
+            "FP": 26,
+            "FN": 15,
+            "AUC": 0.8353303663129065
+          },
+          "test_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.5510204081632653,
+            "recall": 0.6585365853658537,
+            "accuracy": 0.7804878048780488,
+            "TP": 27,
+            "TN": 101,
+            "FP": 22,
+            "FN": 14,
+            "AUC": 0.8389847313107278
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.44115417140524305,
+      "std_over_split_seeds": 0.0350204070317604
+    },
+    "PenalizedLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "PenalizedLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4927536231884058,
+            "precision": 0.5964912280701754,
+            "recall": 0.7391304347826086,
+            "accuracy": 0.7976878612716763,
+            "TP": 34,
+            "TN": 104,
+            "FP": 23,
+            "FN": 12,
+            "AUC": 0.8437179048271141
+          },
+          "test_metrics": {
+            "TS": 0.45714285714285713,
+            "precision": 0.5245901639344263,
+            "recall": 0.7804878048780488,
+            "accuracy": 0.7682926829268293,
+            "TP": 32,
+            "TN": 94,
+            "FP": 29,
+            "FN": 9,
+            "AUC": 0.8469165179456672
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l1",
+            "C": 0.01,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.515625,
+            "recall": 0.717391304347826,
+            "accuracy": 0.7456647398843931,
+            "TP": 33,
+            "TN": 96,
+            "FP": 31,
+            "FN": 13,
+            "AUC": 0.782180760013694
+          },
+          "test_metrics": {
+            "TS": 0.40789473684210525,
+            "precision": 0.4696969696969697,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.725609756097561,
+            "TP": 31,
+            "TN": 88,
+            "FP": 35,
+            "FN": 10,
+            "AUC": 0.8117192147531231
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l1",
+            "C": 10.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4675324675324675,
+            "precision": 0.5373134328358209,
+            "recall": 0.782608695652174,
+            "accuracy": 0.7630057803468208,
+            "TP": 36,
+            "TN": 96,
+            "FP": 31,
+            "FN": 10,
+            "AUC": 0.8490243067442657
+          },
+          "test_metrics": {
+            "TS": 0.5072463768115942,
+            "precision": 0.5555555555555556,
+            "recall": 0.8536585365853658,
+            "accuracy": 0.7926829268292683,
+            "TP": 35,
+            "TN": 95,
+            "FP": 28,
+            "FN": 6,
+            "AUC": 0.8615903232203054
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.53125,
+            "precision": 0.6538461538461539,
+            "recall": 0.7391304347826086,
+            "accuracy": 0.8265895953757225,
+            "TP": 34,
+            "TN": 109,
+            "FP": 18,
+            "FN": 12,
+            "AUC": 0.8512495720643615
+          },
+          "test_metrics": {
+            "TS": 0.4,
+            "precision": 0.49122807017543857,
+            "recall": 0.6829268292682927,
+            "accuracy": 0.7439024390243902,
+            "TP": 28,
+            "TN": 94,
+            "FP": 29,
+            "FN": 13,
+            "AUC": 0.8141978980765417
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4305555555555556,
+            "precision": 0.543859649122807,
+            "recall": 0.6739130434782609,
+            "accuracy": 0.7630057803468208,
+            "TP": 31,
+            "TN": 101,
+            "FP": 26,
+            "FN": 15,
+            "AUC": 0.8353303663129065
+          },
+          "test_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.5510204081632653,
+            "recall": 0.6585365853658537,
+            "accuracy": 0.7804878048780488,
+            "TP": 27,
+            "TN": 101,
+            "FP": 22,
+            "FN": 14,
+            "AUC": 0.8391830259766012
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.44017107987359705,
+      "std_over_split_seeds": 0.038928566814171846
+    },
+    "CART": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "CART",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 10,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6231884057971014,
+            "precision": 0.6515151515151515,
+            "recall": 0.9347826086956522,
+            "accuracy": 0.8497109826589595,
+            "TP": 43,
+            "TN": 104,
+            "FP": 23,
+            "FN": 3,
+            "AUC": 0.8830023964395756
+          },
+          "test_metrics": {
+            "TS": 0.5384615384615384,
+            "precision": 0.5932203389830508,
+            "recall": 0.8536585365853658,
+            "accuracy": 0.8170731707317073,
+            "TP": 35,
+            "TN": 99,
+            "FP": 24,
+            "FN": 6,
+            "AUC": 0.8745786238350188
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.5833333333333334,
+            "precision": 0.7142857142857143,
+            "recall": 0.7608695652173914,
+            "accuracy": 0.8554913294797688,
+            "TP": 35,
+            "TN": 113,
+            "FP": 14,
+            "FN": 11,
+            "AUC": 0.8253166723724752
+          },
+          "test_metrics": {
+            "TS": 0.6909090909090909,
+            "precision": 0.7307692307692307,
+            "recall": 0.926829268292683,
+            "accuracy": 0.8963414634146342,
+            "TP": 38,
+            "TN": 109,
+            "FP": 14,
+            "FN": 3,
+            "AUC": 0.9065040650406504
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6206896551724138,
+            "precision": 0.75,
+            "recall": 0.782608695652174,
+            "accuracy": 0.8728323699421965,
+            "TP": 36,
+            "TN": 115,
+            "FP": 12,
+            "FN": 10,
+            "AUC": 0.8440602533378979
+          },
+          "test_metrics": {
+            "TS": 0.5882352941176471,
+            "precision": 0.75,
+            "recall": 0.7317073170731707,
+            "accuracy": 0.8719512195121951,
+            "TP": 30,
+            "TN": 113,
+            "FP": 10,
+            "FN": 11,
+            "AUC": 0.8252032520325203
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.56,
+            "precision": 0.875,
+            "recall": 0.6086956521739131,
+            "accuracy": 0.8728323699421965,
+            "TP": 28,
+            "TN": 123,
+            "FP": 4,
+            "FN": 18,
+            "AUC": 0.7885997945908936
+          },
+          "test_metrics": {
+            "TS": 0.48,
+            "precision": 0.7272727272727273,
+            "recall": 0.5853658536585366,
+            "accuracy": 0.8414634146341463,
+            "TP": 24,
+            "TN": 114,
+            "FP": 9,
+            "FN": 17,
+            "AUC": 0.7560975609756099
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 10,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5454545454545454,
+            "precision": 0.6428571428571429,
+            "recall": 0.782608695652174,
+            "accuracy": 0.8265895953757225,
+            "TP": 36,
+            "TN": 107,
+            "FP": 20,
+            "FN": 10,
+            "AUC": 0.8586100650462171
+          },
+          "test_metrics": {
+            "TS": 0.4838709677419355,
+            "precision": 0.5882352941176471,
+            "recall": 0.7317073170731707,
+            "accuracy": 0.8048780487804879,
+            "TP": 30,
+            "TN": 102,
+            "FP": 21,
+            "FN": 11,
+            "AUC": 0.8813206424747173
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5562953782460424,
+      "std_over_split_seeds": 0.07813492904309621
+    }
+  },
+  "80/10/10": {
+    "FullLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "FullLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.37254901960784315,
+            "precision": 0.48717948717948717,
+            "recall": 0.6129032258064516,
+            "accuracy": 0.7241379310344828,
+            "TP": 19,
+            "TN": 65,
+            "FP": 20,
+            "FN": 12,
+            "AUC": 0.7647058823529411
+          },
+          "test_metrics": {
+            "TS": 0.5111111111111111,
+            "precision": 0.5609756097560976,
+            "recall": 0.8518518518518519,
+            "accuracy": 0.8,
+            "TP": 23,
+            "TN": 65,
+            "FP": 18,
+            "FN": 4,
+            "AUC": 0.8875502008032128
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4583333333333333,
+            "precision": 0.5641025641025641,
+            "recall": 0.7096774193548387,
+            "accuracy": 0.7758620689655172,
+            "TP": 22,
+            "TN": 68,
+            "FP": 17,
+            "FN": 9,
+            "AUC": 0.8174573055028462
+          },
+          "test_metrics": {
+            "TS": 0.45652173913043476,
+            "precision": 0.525,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.7727272727272727,
+            "TP": 21,
+            "TN": 64,
+            "FP": 19,
+            "FN": 6,
+            "AUC": 0.8357875948237394
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5434782608695652,
+            "precision": 0.625,
+            "recall": 0.8064516129032258,
+            "accuracy": 0.8189655172413793,
+            "TP": 25,
+            "TN": 70,
+            "FP": 15,
+            "FN": 6,
+            "AUC": 0.8565464895635674
+          },
+          "test_metrics": {
+            "TS": 0.5217391304347826,
+            "precision": 0.5581395348837209,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.8,
+            "TP": 24,
+            "TN": 64,
+            "FP": 19,
+            "FN": 3,
+            "AUC": 0.8790718429272646
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.43478260869565216,
+            "precision": 0.5714285714285714,
+            "recall": 0.6451612903225806,
+            "accuracy": 0.7758620689655172,
+            "TP": 20,
+            "TN": 70,
+            "FP": 15,
+            "FN": 11,
+            "AUC": 0.8030360531309297
+          },
+          "test_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.4883720930232558,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.7454545454545455,
+            "TP": 21,
+            "TN": 61,
+            "FP": 22,
+            "FN": 6,
+            "AUC": 0.8304328424810352
+          }
+        },
+        {
+          "model": "FullLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.38,
+            "precision": 0.5,
+            "recall": 0.6129032258064516,
+            "accuracy": 0.7327586206896551,
+            "TP": 19,
+            "TN": 66,
+            "FP": 19,
+            "FN": 12,
+            "AUC": 0.8110056925996205
+          },
+          "test_metrics": {
+            "TS": 0.5,
+            "precision": 0.5833333333333334,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8090909090909091,
+            "TP": 21,
+            "TN": 68,
+            "FP": 15,
+            "FN": 6,
+            "AUC": 0.8469433288710396
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.48358868184955134,
+      "std_over_split_seeds": 0.03533210933294595
+    },
+    "PenalizedLR": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "PenalizedLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.37254901960784315,
+            "precision": 0.48717948717948717,
+            "recall": 0.6129032258064516,
+            "accuracy": 0.7241379310344828,
+            "TP": 19,
+            "TN": 65,
+            "FP": 20,
+            "FN": 12,
+            "AUC": 0.7624288425047439
+          },
+          "test_metrics": {
+            "TS": 0.5333333333333333,
+            "precision": 0.5714285714285714,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.8090909090909091,
+            "TP": 24,
+            "TN": 65,
+            "FP": 18,
+            "FN": 3,
+            "AUC": 0.888442659526997
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l1",
+            "C": 0.01,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.46296296296296297,
+            "precision": 0.5208333333333334,
+            "recall": 0.8064516129032258,
+            "accuracy": 0.75,
+            "TP": 25,
+            "TN": 62,
+            "FP": 23,
+            "FN": 6,
+            "AUC": 0.8045540796963947
+          },
+          "test_metrics": {
+            "TS": 0.3877551020408163,
+            "precision": 0.4634146341463415,
+            "recall": 0.7037037037037037,
+            "accuracy": 0.7272727272727273,
+            "TP": 19,
+            "TN": 61,
+            "FP": 22,
+            "FN": 8,
+            "AUC": 0.8259705488621151
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 100.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5434782608695652,
+            "precision": 0.625,
+            "recall": 0.8064516129032258,
+            "accuracy": 0.8189655172413793,
+            "TP": 25,
+            "TN": 70,
+            "FP": 15,
+            "FN": 6,
+            "AUC": 0.8569259962049336
+          },
+          "test_metrics": {
+            "TS": 0.5217391304347826,
+            "precision": 0.5581395348837209,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.8,
+            "TP": 24,
+            "TN": 64,
+            "FP": 19,
+            "FN": 3,
+            "AUC": 0.8790718429272646
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 10.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.45652173913043476,
+            "precision": 0.5833333333333334,
+            "recall": 0.6774193548387096,
+            "accuracy": 0.7844827586206896,
+            "TP": 21,
+            "TN": 70,
+            "FP": 15,
+            "FN": 10,
+            "AUC": 0.8026565464895635
+          },
+          "test_metrics": {
+            "TS": 0.42857142857142855,
+            "precision": 0.4883720930232558,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.7454545454545455,
+            "TP": 21,
+            "TN": 61,
+            "FP": 22,
+            "FN": 6,
+            "AUC": 0.8308790718429273
+          }
+        },
+        {
+          "model": "PenalizedLR",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "penalty": "l2",
+            "C": 0.01,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.4166666666666667,
+            "precision": 0.5405405405405406,
+            "recall": 0.6451612903225806,
+            "accuracy": 0.7586206896551724,
+            "TP": 20,
+            "TN": 68,
+            "FP": 17,
+            "FN": 11,
+            "AUC": 0.7962049335863377
+          },
+          "test_metrics": {
+            "TS": 0.525,
+            "precision": 0.6176470588235294,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8272727272727273,
+            "TP": 21,
+            "TN": 70,
+            "FP": 13,
+            "FN": 6,
+            "AUC": 0.859437751004016
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.47927979887607214,
+      "std_over_split_seeds": 0.05960373338019287
+    },
+    "CART": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "CART",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5609756097560976,
+            "precision": 0.696969696969697,
+            "recall": 0.7419354838709677,
+            "accuracy": 0.8448275862068966,
+            "TP": 23,
+            "TN": 75,
+            "FP": 10,
+            "FN": 8,
+            "AUC": 0.812144212523719
+          },
+          "test_metrics": {
+            "TS": 0.5,
+            "precision": 0.7083333333333334,
+            "recall": 0.6296296296296297,
+            "accuracy": 0.8454545454545455,
+            "TP": 17,
+            "TN": 76,
+            "FP": 7,
+            "FN": 10,
+            "AUC": 0.7726461401160197
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 5,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5526315789473685,
+            "precision": 0.75,
+            "recall": 0.6774193548387096,
+            "accuracy": 0.853448275862069,
+            "TP": 21,
+            "TN": 78,
+            "FP": 7,
+            "FN": 10,
+            "AUC": 0.8130929791271349
+          },
+          "test_metrics": {
+            "TS": 0.5945945945945946,
+            "precision": 0.6875,
+            "recall": 0.8148148148148148,
+            "accuracy": 0.8636363636363636,
+            "TP": 22,
+            "TN": 73,
+            "FP": 10,
+            "FN": 5,
+            "AUC": 0.8732708612226685
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 10,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6,
+            "precision": 0.7272727272727273,
+            "recall": 0.7741935483870968,
+            "accuracy": 0.8620689655172413,
+            "TP": 24,
+            "TN": 76,
+            "FP": 9,
+            "FN": 7,
+            "AUC": 0.9132827324478179
+          },
+          "test_metrics": {
+            "TS": 0.5526315789473685,
+            "precision": 0.65625,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8454545454545455,
+            "TP": 21,
+            "TN": 72,
+            "FP": 11,
+            "FN": 6,
+            "AUC": 0.8795180722891567
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 20,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.5581395348837209,
+            "precision": 0.6666666666666666,
+            "recall": 0.7741935483870968,
+            "accuracy": 0.8362068965517241,
+            "TP": 24,
+            "TN": 73,
+            "FP": 12,
+            "FN": 7,
+            "AUC": 0.8823529411764707
+          },
+          "test_metrics": {
+            "TS": 0.475,
+            "precision": 0.59375,
+            "recall": 0.7037037037037037,
+            "accuracy": 0.8090909090909091,
+            "TP": 19,
+            "TN": 70,
+            "FP": 13,
+            "FN": 8,
+            "AUC": 0.8299866131191433
+          }
+        },
+        {
+          "model": "CART",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor",
+          "feature_dim": 14,
+          "best_hp": {
+            "max_depth": null,
+            "min_samples_leaf": 10,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.475,
+            "precision": 0.6785714285714286,
+            "recall": 0.6129032258064516,
+            "accuracy": 0.8189655172413793,
+            "TP": 19,
+            "TN": 76,
+            "FP": 9,
+            "FN": 12,
+            "AUC": 0.8159392789373814
+          },
+          "test_metrics": {
+            "TS": 0.525,
+            "precision": 0.6176470588235294,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8272727272727273,
+            "TP": 21,
+            "TN": 70,
+            "FP": 13,
+            "FN": 6,
+            "AUC": 0.8799643016510487
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5294452347083927,
+      "std_over_split_seeds": 0.04155264418505072
+    }
+  }
+}

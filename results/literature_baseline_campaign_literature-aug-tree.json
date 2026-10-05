@@ -1,0 +1,2346 @@
+{
+  "50/25/25": {
+    "RandomForest": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "RandomForest",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 5,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6236559139784946,
+            "precision": 0.7341772151898734,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.875886524822695,
+            "TP": 58,
+            "TN": 189,
+            "FP": 21,
+            "FN": 14,
+            "AUC": 0.9283730158730159
+          },
+          "test_metrics": {
+            "TS": 0.6,
+            "precision": 0.7402597402597403,
+            "recall": 0.76,
+            "accuracy": 0.8666666666666667,
+            "TP": 57,
+            "TN": 190,
+            "FP": 20,
+            "FN": 18,
+            "AUC": 0.9293333333333332
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.648936170212766,
+            "precision": 0.7349397590361446,
+            "recall": 0.8472222222222222,
+            "accuracy": 0.8829787234042553,
+            "TP": 61,
+            "TN": 188,
+            "FP": 22,
+            "FN": 11,
+            "AUC": 0.940410052910053
+          },
+          "test_metrics": {
+            "TS": 0.5833333333333334,
+            "precision": 0.7272727272727273,
+            "recall": 0.7466666666666667,
+            "accuracy": 0.8596491228070176,
+            "TP": 56,
+            "TN": 189,
+            "FP": 21,
+            "FN": 19,
+            "AUC": 0.9291428571428572
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6875,
+            "precision": 0.873015873015873,
+            "recall": 0.7638888888888888,
+            "accuracy": 0.9113475177304965,
+            "TP": 55,
+            "TN": 202,
+            "FP": 8,
+            "FN": 17,
+            "AUC": 0.9308862433862434
+          },
+          "test_metrics": {
+            "TS": 0.6444444444444445,
+            "precision": 0.7945205479452054,
+            "recall": 0.7733333333333333,
+            "accuracy": 0.887719298245614,
+            "TP": 58,
+            "TN": 195,
+            "FP": 15,
+            "FN": 17,
+            "AUC": 0.9368253968253969
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6129032258064516,
+            "precision": 0.7307692307692307,
+            "recall": 0.7916666666666666,
+            "accuracy": 0.8723404255319149,
+            "TP": 57,
+            "TN": 189,
+            "FP": 21,
+            "FN": 15,
+            "AUC": 0.8822751322751323
+          },
+          "test_metrics": {
+            "TS": 0.54,
+            "precision": 0.6835443037974683,
+            "recall": 0.72,
+            "accuracy": 0.8385964912280702,
+            "TP": 54,
+            "TN": 185,
+            "FP": 25,
+            "FN": 21,
+            "AUC": 0.8706031746031746
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6304347826086957,
+            "precision": 0.7435897435897436,
+            "recall": 0.8055555555555556,
+            "accuracy": 0.8794326241134752,
+            "TP": 58,
+            "TN": 190,
+            "FP": 20,
+            "FN": 14,
+            "AUC": 0.9182539682539682
+          },
+          "test_metrics": {
+            "TS": 0.6309523809523809,
+            "precision": 0.8548387096774194,
+            "recall": 0.7066666666666667,
+            "accuracy": 0.8912280701754386,
+            "TP": 53,
+            "TN": 201,
+            "FP": 9,
+            "FN": 22,
+            "AUC": 0.9239365079365078
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5997460317460318,
+      "std_over_split_seeds": 0.036907489231873467
+    },
+    "HistGradientBoosting": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 100,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 0.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6021505376344086,
+            "precision": 0.7272727272727273,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8687943262411347,
+            "TP": 56,
+            "TN": 189,
+            "FP": 21,
+            "FN": 16,
+            "AUC": 0.9201058201058201
+          },
+          "test_metrics": {
+            "TS": 0.6237623762376238,
+            "precision": 0.7078651685393258,
+            "recall": 0.84,
+            "accuracy": 0.8666666666666667,
+            "TP": 63,
+            "TN": 184,
+            "FP": 26,
+            "FN": 12,
+            "AUC": 0.920063492063492
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 1.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.686046511627907,
+            "precision": 0.8082191780821918,
+            "recall": 0.8194444444444444,
+            "accuracy": 0.9042553191489362,
+            "TP": 59,
+            "TN": 196,
+            "FP": 14,
+            "FN": 13,
+            "AUC": 0.9457010582010582
+          },
+          "test_metrics": {
+            "TS": 0.532608695652174,
+            "precision": 0.7424242424242424,
+            "recall": 0.6533333333333333,
+            "accuracy": 0.8491228070175438,
+            "TP": 49,
+            "TN": 193,
+            "FP": 17,
+            "FN": 26,
+            "AUC": 0.9387936507936507
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6375,
+            "precision": 0.864406779661017,
+            "recall": 0.7083333333333334,
+            "accuracy": 0.8971631205673759,
+            "TP": 51,
+            "TN": 202,
+            "FP": 8,
+            "FN": 21,
+            "AUC": 0.925
+          },
+          "test_metrics": {
+            "TS": 0.7011494252873564,
+            "precision": 0.8356164383561644,
+            "recall": 0.8133333333333334,
+            "accuracy": 0.9087719298245615,
+            "TP": 61,
+            "TN": 198,
+            "FP": 12,
+            "FN": 14,
+            "AUC": 0.9362539682539682
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6145833333333334,
+            "precision": 0.7108433734939759,
+            "recall": 0.8194444444444444,
+            "accuracy": 0.8687943262411347,
+            "TP": 59,
+            "TN": 186,
+            "FP": 24,
+            "FN": 13,
+            "AUC": 0.8917989417989418
+          },
+          "test_metrics": {
+            "TS": 0.5473684210526316,
+            "precision": 0.7222222222222222,
+            "recall": 0.6933333333333334,
+            "accuracy": 0.8491228070175438,
+            "TP": 52,
+            "TN": 190,
+            "FP": 20,
+            "FN": 23,
+            "AUC": 0.8853968253968254
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "50/25/25",
+          "train_ratio": 0.5,
+          "val_ratio": 0.25,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 564,
+            "val": 282,
+            "test": 285
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6477272727272727,
+            "precision": 0.7808219178082192,
+            "recall": 0.7916666666666666,
+            "accuracy": 0.8900709219858156,
+            "TP": 57,
+            "TN": 194,
+            "FP": 16,
+            "FN": 15,
+            "AUC": 0.9069444444444446
+          },
+          "test_metrics": {
+            "TS": 0.5697674418604651,
+            "precision": 0.8166666666666667,
+            "recall": 0.6533333333333333,
+            "accuracy": 0.8701754385964913,
+            "TP": 49,
+            "TN": 199,
+            "FP": 11,
+            "FN": 26,
+            "AUC": 0.9063492063492065
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.5949312720180502,
+      "std_over_split_seeds": 0.06147044057024581
+    }
+  },
+  "60/20/20": {
+    "RandomForest": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "RandomForest",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 5,
+            "max_features": null,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.647887323943662,
+            "precision": 0.7931034482758621,
+            "recall": 0.7796610169491526,
+            "accuracy": 0.8898678414096917,
+            "TP": 46,
+            "TN": 156,
+            "FP": 12,
+            "FN": 13,
+            "AUC": 0.9241323648103309
+          },
+          "test_metrics": {
+            "TS": 0.6216216216216216,
+            "precision": 0.7419354838709677,
+            "recall": 0.7931034482758621,
+            "accuracy": 0.8755555555555555,
+            "TP": 46,
+            "TN": 151,
+            "FP": 16,
+            "FN": 12,
+            "AUC": 0.9283501961594053
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6901408450704225,
+            "precision": 0.8032786885245902,
+            "recall": 0.8305084745762712,
+            "accuracy": 0.9030837004405287,
+            "TP": 49,
+            "TN": 156,
+            "FP": 12,
+            "FN": 10,
+            "AUC": 0.9642352703793382
+          },
+          "test_metrics": {
+            "TS": 0.6461538461538462,
+            "precision": 0.8571428571428571,
+            "recall": 0.7241379310344828,
+            "accuracy": 0.8977777777777778,
+            "TP": 42,
+            "TN": 160,
+            "FP": 7,
+            "FN": 16,
+            "AUC": 0.9425975634937023
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6619718309859155,
+            "precision": 0.7966101694915254,
+            "recall": 0.7966101694915254,
+            "accuracy": 0.8942731277533039,
+            "TP": 47,
+            "TN": 156,
+            "FP": 12,
+            "FN": 12,
+            "AUC": 0.9222154963680388
+          },
+          "test_metrics": {
+            "TS": 0.6388888888888888,
+            "precision": 0.7666666666666667,
+            "recall": 0.7931034482758621,
+            "accuracy": 0.8844444444444445,
+            "TP": 46,
+            "TN": 153,
+            "FP": 14,
+            "FN": 12,
+            "AUC": 0.9384678918026017
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6338028169014085,
+            "precision": 0.7894736842105263,
+            "recall": 0.7627118644067796,
+            "accuracy": 0.8854625550660793,
+            "TP": 45,
+            "TN": 156,
+            "FP": 12,
+            "FN": 14,
+            "AUC": 0.8882667473769168
+          },
+          "test_metrics": {
+            "TS": 0.5616438356164384,
+            "precision": 0.7321428571428571,
+            "recall": 0.7068965517241379,
+            "accuracy": 0.8577777777777778,
+            "TP": 41,
+            "TN": 152,
+            "FP": 15,
+            "FN": 17,
+            "AUC": 0.8907185628742513
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6153846153846154,
+            "precision": 0.7164179104477612,
+            "recall": 0.8135593220338984,
+            "accuracy": 0.8678414096916299,
+            "TP": 48,
+            "TN": 149,
+            "FP": 19,
+            "FN": 11,
+            "AUC": 0.9060734463276836
+          },
+          "test_metrics": {
+            "TS": 0.703125,
+            "precision": 0.8823529411764706,
+            "recall": 0.7758620689655172,
+            "accuracy": 0.9155555555555556,
+            "TP": 45,
+            "TN": 161,
+            "FP": 6,
+            "FN": 13,
+            "AUC": 0.9447656411315299
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.6342866384561591,
+      "std_over_split_seeds": 0.04547111347538305
+    },
+    "HistGradientBoosting": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6621621621621622,
+            "precision": 0.765625,
+            "recall": 0.8305084745762712,
+            "accuracy": 0.8898678414096917,
+            "TP": 49,
+            "TN": 153,
+            "FP": 15,
+            "FN": 10,
+            "AUC": 0.9266545601291364
+          },
+          "test_metrics": {
+            "TS": 0.5714285714285714,
+            "precision": 0.6984126984126984,
+            "recall": 0.7586206896551724,
+            "accuracy": 0.8533333333333334,
+            "TP": 44,
+            "TN": 148,
+            "FP": 19,
+            "FN": 14,
+            "AUC": 0.9165806318397688
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 200,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.7101449275362319,
+            "precision": 0.8305084745762712,
+            "recall": 0.8305084745762712,
+            "accuracy": 0.9118942731277533,
+            "TP": 49,
+            "TN": 158,
+            "FP": 10,
+            "FN": 10,
+            "AUC": 0.9551049233252623
+          },
+          "test_metrics": {
+            "TS": 0.6119402985074627,
+            "precision": 0.82,
+            "recall": 0.7068965517241379,
+            "accuracy": 0.8844444444444445,
+            "TP": 41,
+            "TN": 158,
+            "FP": 9,
+            "FN": 17,
+            "AUC": 0.9432170142473674
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6716417910447762,
+            "precision": 0.8490566037735849,
+            "recall": 0.7627118644067796,
+            "accuracy": 0.9030837004405287,
+            "TP": 45,
+            "TN": 160,
+            "FP": 8,
+            "FN": 14,
+            "AUC": 0.9239305891848265
+          },
+          "test_metrics": {
+            "TS": 0.5857142857142857,
+            "precision": 0.7735849056603774,
+            "recall": 0.7068965517241379,
+            "accuracy": 0.8711111111111111,
+            "TP": 41,
+            "TN": 155,
+            "FP": 12,
+            "FN": 17,
+            "AUC": 0.9341317365269461
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6266666666666667,
+            "precision": 0.746031746031746,
+            "recall": 0.7966101694915254,
+            "accuracy": 0.8766519823788547,
+            "TP": 47,
+            "TN": 152,
+            "FP": 16,
+            "FN": 12,
+            "AUC": 0.8949757869249395
+          },
+          "test_metrics": {
+            "TS": 0.5945945945945946,
+            "precision": 0.7333333333333333,
+            "recall": 0.7586206896551724,
+            "accuracy": 0.8666666666666667,
+            "TP": 44,
+            "TN": 151,
+            "FP": 16,
+            "FN": 14,
+            "AUC": 0.8773487507743134
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "60/20/20",
+          "train_ratio": 0.6,
+          "val_ratio": 0.2,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 679,
+            "val": 227,
+            "test": 225
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6857142857142857,
+            "precision": 0.8135593220338984,
+            "recall": 0.8135593220338984,
+            "accuracy": 0.9030837004405287,
+            "TP": 48,
+            "TN": 157,
+            "FP": 11,
+            "FN": 11,
+            "AUC": 0.9274616626311541
+          },
+          "test_metrics": {
+            "TS": 0.6615384615384615,
+            "precision": 0.86,
+            "recall": 0.7413793103448276,
+            "accuracy": 0.9022222222222223,
+            "TP": 43,
+            "TN": 160,
+            "FP": 7,
+            "FN": 15,
+            "AUC": 0.9312409663431758
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.6050432423566752,
+      "std_over_split_seeds": 0.03115126989542899
+    }
+  },
+  "70/15/15": {
+    "RandomForest": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "RandomForest",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6842105263157895,
+            "precision": 0.78,
+            "recall": 0.8478260869565217,
+            "accuracy": 0.8959537572254336,
+            "TP": 39,
+            "TN": 116,
+            "FP": 11,
+            "FN": 7,
+            "AUC": 0.9464224580623074
+          },
+          "test_metrics": {
+            "TS": 0.7115384615384616,
+            "precision": 0.7708333333333334,
+            "recall": 0.9024390243902439,
+            "accuracy": 0.9085365853658537,
+            "TP": 37,
+            "TN": 112,
+            "FP": 11,
+            "FN": 4,
+            "AUC": 0.941503073567321
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6,
+            "precision": 0.7857142857142857,
+            "recall": 0.717391304347826,
+            "accuracy": 0.8728323699421965,
+            "TP": 33,
+            "TN": 118,
+            "FP": 9,
+            "FN": 13,
+            "AUC": 0.9391475522081479
+          },
+          "test_metrics": {
+            "TS": 0.7659574468085106,
+            "precision": 0.8571428571428571,
+            "recall": 0.8780487804878049,
+            "accuracy": 0.9329268292682927,
+            "TP": 36,
+            "TN": 117,
+            "FP": 6,
+            "FN": 5,
+            "AUC": 0.9588538568312512
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.7,
+            "precision": 0.8974358974358975,
+            "recall": 0.7608695652173914,
+            "accuracy": 0.9132947976878613,
+            "TP": 35,
+            "TN": 123,
+            "FP": 4,
+            "FN": 11,
+            "AUC": 0.9428277986990756
+          },
+          "test_metrics": {
+            "TS": 0.6595744680851063,
+            "precision": 0.8378378378378378,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.9024390243902439,
+            "TP": 31,
+            "TN": 117,
+            "FP": 6,
+            "FN": 10,
+            "AUC": 0.9410073369026374
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 5,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6140350877192983,
+            "precision": 0.7608695652173914,
+            "recall": 0.7608695652173914,
+            "accuracy": 0.8728323699421965,
+            "TP": 35,
+            "TN": 116,
+            "FP": 11,
+            "FN": 11,
+            "AUC": 0.9091064703868539
+          },
+          "test_metrics": {
+            "TS": 0.6296296296296297,
+            "precision": 0.723404255319149,
+            "recall": 0.8292682926829268,
+            "accuracy": 0.8780487804878049,
+            "TP": 34,
+            "TN": 110,
+            "FP": 13,
+            "FN": 7,
+            "AUC": 0.9099742216934366
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.66,
+            "precision": 0.8918918918918919,
+            "recall": 0.717391304347826,
+            "accuracy": 0.9017341040462428,
+            "TP": 33,
+            "TN": 123,
+            "FP": 4,
+            "FN": 13,
+            "AUC": 0.9316158849709004
+          },
+          "test_metrics": {
+            "TS": 0.6595744680851063,
+            "precision": 0.8378378378378378,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.9024390243902439,
+            "TP": 31,
+            "TN": 117,
+            "FP": 6,
+            "FN": 10,
+            "AUC": 0.938826095578029
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.6852548948293629,
+      "std_over_split_seeds": 0.048201382841104444
+    },
+    "HistGradientBoosting": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6792452830188679,
+            "precision": 0.8372093023255814,
+            "recall": 0.782608695652174,
+            "accuracy": 0.9017341040462428,
+            "TP": 36,
+            "TN": 120,
+            "FP": 7,
+            "FN": 10,
+            "AUC": 0.9460801095515234
+          },
+          "test_metrics": {
+            "TS": 0.6538461538461539,
+            "precision": 0.7555555555555555,
+            "recall": 0.8292682926829268,
+            "accuracy": 0.8902439024390244,
+            "TP": 34,
+            "TN": 112,
+            "FP": 11,
+            "FN": 7,
+            "AUC": 0.9417013682331945
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6724137931034483,
+            "precision": 0.7647058823529411,
+            "recall": 0.8478260869565217,
+            "accuracy": 0.8901734104046243,
+            "TP": 39,
+            "TN": 115,
+            "FP": 12,
+            "FN": 7,
+            "AUC": 0.9246833276275248
+          },
+          "test_metrics": {
+            "TS": 0.6851851851851852,
+            "precision": 0.74,
+            "recall": 0.9024390243902439,
+            "accuracy": 0.8963414634146342,
+            "TP": 37,
+            "TN": 110,
+            "FP": 13,
+            "FN": 4,
+            "AUC": 0.9537973428514773
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 0.1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.7272727272727273,
+            "precision": 0.8163265306122449,
+            "recall": 0.8695652173913043,
+            "accuracy": 0.9132947976878613,
+            "TP": 40,
+            "TN": 118,
+            "FP": 9,
+            "FN": 6,
+            "AUC": 0.9301609038000684
+          },
+          "test_metrics": {
+            "TS": 0.6,
+            "precision": 0.7021276595744681,
+            "recall": 0.8048780487804879,
+            "accuracy": 0.8658536585365854,
+            "TP": 33,
+            "TN": 109,
+            "FP": 14,
+            "FN": 8,
+            "AUC": 0.926829268292683
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.1,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6607142857142857,
+            "precision": 0.7872340425531915,
+            "recall": 0.8043478260869565,
+            "accuracy": 0.8901734104046243,
+            "TP": 37,
+            "TN": 117,
+            "FP": 10,
+            "FN": 9,
+            "AUC": 0.8998630605956864
+          },
+          "test_metrics": {
+            "TS": 0.6111111111111112,
+            "precision": 0.717391304347826,
+            "recall": 0.8048780487804879,
+            "accuracy": 0.8719512195121951,
+            "TP": 33,
+            "TN": 110,
+            "FP": 13,
+            "FN": 8,
+            "AUC": 0.8840967677969462
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "70/15/15",
+          "train_ratio": 0.7,
+          "val_ratio": 0.15,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 794,
+            "val": 173,
+            "test": 164
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 200,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 0.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6730769230769231,
+            "precision": 0.8536585365853658,
+            "recall": 0.7608695652173914,
+            "accuracy": 0.9017341040462428,
+            "TP": 35,
+            "TN": 121,
+            "FP": 6,
+            "FN": 11,
+            "AUC": 0.9176651831564532
+          },
+          "test_metrics": {
+            "TS": 0.62,
+            "precision": 0.775,
+            "recall": 0.7560975609756098,
+            "accuracy": 0.8841463414634146,
+            "TP": 31,
+            "TN": 114,
+            "FP": 9,
+            "FN": 10,
+            "AUC": 0.9335712869323816
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.63402849002849,
+      "std_over_split_seeds": 0.031272000834888056
+    }
+  },
+  "80/10/10": {
+    "RandomForest": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "RandomForest",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6,
+            "precision": 0.7272727272727273,
+            "recall": 0.7741935483870968,
+            "accuracy": 0.8620689655172413,
+            "TP": 24,
+            "TN": 76,
+            "FP": 9,
+            "FN": 7,
+            "AUC": 0.9092979127134725
+          },
+          "test_metrics": {
+            "TS": 0.7272727272727273,
+            "precision": 0.8,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.9181818181818182,
+            "TP": 24,
+            "TN": 77,
+            "FP": 6,
+            "FN": 3,
+            "AUC": 0.9660865684962071
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6764705882352942,
+            "precision": 0.8846153846153846,
+            "recall": 0.7419354838709677,
+            "accuracy": 0.9051724137931034,
+            "TP": 23,
+            "TN": 82,
+            "FP": 3,
+            "FN": 8,
+            "AUC": 0.9358633776091081
+          },
+          "test_metrics": {
+            "TS": 0.7741935483870968,
+            "precision": 0.8571428571428571,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.9363636363636364,
+            "TP": 24,
+            "TN": 79,
+            "FP": 4,
+            "FN": 3,
+            "AUC": 0.969433288710397
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 5,
+            "max_features": null,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.7297297297297297,
+            "precision": 0.8181818181818182,
+            "recall": 0.8709677419354839,
+            "accuracy": 0.9137931034482759,
+            "TP": 27,
+            "TN": 79,
+            "FP": 6,
+            "FN": 4,
+            "AUC": 0.955977229601518
+          },
+          "test_metrics": {
+            "TS": 0.6,
+            "precision": 0.7241379310344828,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8727272727272727,
+            "TP": 21,
+            "TN": 75,
+            "FP": 8,
+            "FN": 6,
+            "AUC": 0.9321731369924141
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6410256410256411,
+            "precision": 0.7575757575757576,
+            "recall": 0.8064516129032258,
+            "accuracy": 0.8793103448275862,
+            "TP": 25,
+            "TN": 77,
+            "FP": 8,
+            "FN": 6,
+            "AUC": 0.9478178368121442
+          },
+          "test_metrics": {
+            "TS": 0.625,
+            "precision": 0.8,
+            "recall": 0.7407407407407407,
+            "accuracy": 0.8909090909090909,
+            "TP": 20,
+            "TN": 78,
+            "FP": 5,
+            "FN": 7,
+            "AUC": 0.9390896921017402
+          }
+        },
+        {
+          "model": "RandomForest",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "n_estimators": 300,
+            "max_depth": null,
+            "min_samples_leaf": 5,
+            "max_features": "sqrt",
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.7272727272727273,
+            "precision": 0.9230769230769231,
+            "recall": 0.7741935483870968,
+            "accuracy": 0.9224137931034483,
+            "TP": 24,
+            "TN": 83,
+            "FP": 2,
+            "FN": 7,
+            "AUC": 0.9472485768500949
+          },
+          "test_metrics": {
+            "TS": 0.7058823529411765,
+            "precision": 0.7741935483870968,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.9090909090909091,
+            "TP": 24,
+            "TN": 76,
+            "FP": 7,
+            "FN": 3,
+            "AUC": 0.9638554216867469
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.6864697257202002,
+      "std_over_split_seeds": 0.06479621090905321
+    },
+    "HistGradientBoosting": {
+      "n_split_seeds": 5,
+      "split_seed_results": [
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 42,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.6666666666666666,
+            "precision": 0.717948717948718,
+            "recall": 0.9032258064516129,
+            "accuracy": 0.8793103448275862,
+            "TP": 28,
+            "TN": 74,
+            "FP": 11,
+            "FN": 3,
+            "AUC": 0.8861480075901329
+          },
+          "test_metrics": {
+            "TS": 0.6486486486486487,
+            "precision": 0.7058823529411765,
+            "recall": 0.8888888888888888,
+            "accuracy": 0.8818181818181818,
+            "TP": 24,
+            "TN": 73,
+            "FP": 10,
+            "FN": 3,
+            "AUC": 0.9589468987059349
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 43,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.03,
+            "max_iter": 100,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.675,
+            "precision": 0.75,
+            "recall": 0.8709677419354839,
+            "accuracy": 0.8879310344827587,
+            "TP": 27,
+            "TN": 76,
+            "FP": 9,
+            "FN": 4,
+            "AUC": 0.9373814041745732
+          },
+          "test_metrics": {
+            "TS": 0.6578947368421053,
+            "precision": 0.6944444444444444,
+            "recall": 0.9259259259259259,
+            "accuracy": 0.8818181818181818,
+            "TP": 25,
+            "TN": 72,
+            "FP": 11,
+            "FN": 2,
+            "AUC": 0.9468987059348505
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 44,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 1.0,
+            "class_weight": "balanced"
+          },
+          "val_metrics": {
+            "TS": 0.7222222222222222,
+            "precision": 0.8387096774193549,
+            "recall": 0.8387096774193549,
+            "accuracy": 0.9137931034482759,
+            "TP": 26,
+            "TN": 80,
+            "FP": 5,
+            "FN": 5,
+            "AUC": 0.9597722960151803
+          },
+          "test_metrics": {
+            "TS": 0.6,
+            "precision": 0.7241379310344828,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.8727272727272727,
+            "TP": 21,
+            "TN": 75,
+            "FP": 8,
+            "FN": 6,
+            "AUC": 0.9330655957161981
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 45,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 15,
+            "l2_regularization": 0.1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.6486486486486487,
+            "precision": 0.8,
+            "recall": 0.7741935483870968,
+            "accuracy": 0.8879310344827587,
+            "TP": 24,
+            "TN": 79,
+            "FP": 6,
+            "FN": 7,
+            "AUC": 0.9142314990512334
+          },
+          "test_metrics": {
+            "TS": 0.6774193548387096,
+            "precision": 0.84,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.9090909090909091,
+            "TP": 21,
+            "TN": 79,
+            "FP": 4,
+            "FN": 6,
+            "AUC": 0.9437751004016064
+          }
+        },
+        {
+          "model": "HistGradientBoosting",
+          "split_label": "80/10/10",
+          "train_ratio": 0.8,
+          "val_ratio": 0.1,
+          "split_seed": 46,
+          "split_sizes": {
+            "train": 905,
+            "val": 116,
+            "test": 110
+          },
+          "feature_builder": "build_n_tensor + selected SW + selected AUG",
+          "feature_set": "selected_aug",
+          "selected_structw_cols": [
+            "storm_duration_signal",
+            "antecedent_wetness_signal",
+            "burn_scar_sensitivity_signal",
+            "mentions_burn_scar_or_debris_flow",
+            "overall_pfdf_weather_risk",
+            "precipitation_signal",
+            "localized_extreme_signal"
+          ],
+          "selected_aug_cols": [
+            "slope_deg",
+            "soilm_30d"
+          ],
+          "feature_dim": 23,
+          "best_hp": {
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "l2_regularization": 0.1,
+            "class_weight": null
+          },
+          "val_metrics": {
+            "TS": 0.696969696969697,
+            "precision": 0.92,
+            "recall": 0.7419354838709677,
+            "accuracy": 0.9137931034482759,
+            "TP": 23,
+            "TN": 83,
+            "FP": 2,
+            "FN": 8,
+            "AUC": 0.9533206831119545
+          },
+          "test_metrics": {
+            "TS": 0.6774193548387096,
+            "precision": 0.84,
+            "recall": 0.7777777777777778,
+            "accuracy": 0.9090909090909091,
+            "TP": 21,
+            "TN": 79,
+            "FP": 4,
+            "FN": 6,
+            "AUC": 0.9361892012494422
+          }
+        }
+      ],
+      "mean_over_split_seeds": 0.6522764190336346,
+      "std_over_split_seeds": 0.028431970180554017
+    }
+  }
+}

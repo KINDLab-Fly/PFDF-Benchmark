@@ -1,0 +1,8 @@
+\section{Conclusion and Future Work}
+This paper presents an explainable benchmark for data-driven post-wildfire debris-flow prediction. We found that learned models consistently outperform the fixed operational USGS logistic-regression baseline~\cite{staley2017prediction}, and augmented physical and meteorological features further improve predictive performance~\cite{li2025typhoformer}.
+%
+Beyond prediction, our reinforcement learning–based feature selection provides interpretable insights into PFDF drivers. Storm-related variables remain globally dominant, but feature-importance patterns vary substantially across regions, revealing distinct regional PFDF mechanisms. These findings indicate that globally fixed coefficients are insufficient across diverse geographic zones, whereas adaptive learning models can better capture region-specific dynamics while remaining physically interpretable.
+%
+Future work will move beyond influential factor analysis toward mechanism discovery by developing physics-informed equations~\cite{dahal2025towards} for regional PFDF prediction.
+
+% Future work will extend this benchmark in three directions. First, broader multi-agency and post-2020 PFDF inventories could improve coverage of underrepresented regions and support stronger out-of-region generalization tests. Second, prospective evaluation with real-time weather forecasts and uncertainty quantification is needed before operational warning use. Third, future models should more tightly integrate physical constraints, regional adaptation, and interpretable feature attribution so that learned predictors remain both accurate and scientifically useful for hazard assessment.

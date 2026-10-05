@@ -1,0 +1,87 @@
+{
+  "cells_checked": 52,
+  "cells_matching_saved_4_decimals": 44,
+  "mismatches": [
+    {
+      "config": "original",
+      "model": "NN",
+      "ratio": "50/25/25",
+      "observed_mean": 0.540880456598577,
+      "observed_std": 0.029093248228606317,
+      "saved_mean": 0.5397,
+      "saved_std": 0.0301,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "original",
+      "model": "NN",
+      "ratio": "60/20/20",
+      "observed_mean": 0.5597587520299988,
+      "observed_std": 0.041109138633693046,
+      "saved_mean": 0.5579,
+      "saved_std": 0.0455,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "original",
+      "model": "NN",
+      "ratio": "70/15/15",
+      "observed_mean": 0.5794151008238747,
+      "observed_std": 0.028627894691350745,
+      "saved_mean": 0.5828,
+      "saved_std": 0.0323,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "original",
+      "model": "NN",
+      "ratio": "80/10/10",
+      "observed_mean": 0.6062514165094207,
+      "observed_std": 0.017270689243317046,
+      "saved_mean": 0.6134,
+      "saved_std": 0.0121,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "augmented",
+      "model": "NN_AUG_SELECTED",
+      "ratio": "50/25/25",
+      "observed_mean": 0.6011348262713915,
+      "observed_std": 0.021299456571100446,
+      "saved_mean": 0.6043,
+      "saved_std": 0.0208,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "augmented",
+      "model": "NN_AUG_SELECTED",
+      "ratio": "60/20/20",
+      "observed_mean": 0.6080733274248948,
+      "observed_std": 0.034412568389490146,
+      "saved_mean": 0.6106,
+      "saved_std": 0.0414,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "augmented",
+      "model": "NN_AUG_SELECTED",
+      "ratio": "70/15/15",
+      "observed_mean": 0.6311409567267858,
+      "observed_std": 0.022398222077689312,
+      "saved_mean": 0.6323,
+      "saved_std": 0.0181,
+      "matches_saved_4_decimals": false
+    },
+    {
+      "config": "augmented",
+      "model": "NN_AUG_SELECTED",
+      "ratio": "80/10/10",
+      "observed_mean": 0.6719404670656418,
+      "observed_std": 0.04836387599781296,
+      "saved_mean": 0.6625,
+      "saved_std": 0.0427,
+      "matches_saved_4_decimals": false
+    }
+  ],
+  "scope": "Actual saved-HP model refits, 4 ratios x 5 split seeds; 10 neural initialization seeds. No new HP search."
+}

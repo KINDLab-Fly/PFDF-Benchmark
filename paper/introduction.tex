@@ -1,0 +1,66 @@
+\section{Introduction}
+Postfire debris flows are highly destructive secondary hazards triggered by intense rainfall over recently burned terrain~\cite{staley2017prediction, sousa2026influence, sanders2025influence}, where fire-induced changes such as reduced infiltration capacity, hillslope destabilization, and increased sediment availability can rapidly generate high-energy debris flows following heavy precipitation~\cite{kern2017ml_pfdf, nikolopoulos2018pfdf_rf, movasat2026mudflow_ml}. These events pose severe threats to human life, critical infrastructure, and local economies~\cite{selander2024inventory}.
+%
+Therefore, accurately predicting PFDF occurrence and understanding its key driving factors are essential for understanding PFDF formation mechanisms, effective risk assessment, and hazard mitigation.
+
+%
+\begin{figure}[t!]
+     \centering
+     \vspace{4ex}
+     \includegraphics[width=1\linewidth]{Figure/Framework.pdf}
+     \vspace{-5ex}
+     \caption{Benchmark Framework of Data-driven PFDF Prediction, including data curation, evaluation metrics, baseline, and feature selection. Heterogeneous environmental inputs support standardized model comparisons, while reinforcement learning identifies influential features.}
+    \vspace{-6ex}
+     \Description{Benchmark Framework of Data-driven PFDF Prediction, including data curation, evaluation metrics, baseline, and feature selection. Heterogeneous environmental inputs support standardized model comparisons, while reinforcement learning identifies influential features.}
+     \label{fig:framework}
+\end{figure}
+
+
+% \begin{table}[t!]
+% \centering
+% \scriptsize
+% \setlength{\tabcolsep}{3pt}
+% \resizebox{\linewidth}{!}{%
+% \begin{tabular}{lcccccc}
+% \toprule
+% \multirow{2}{*}{\textbf{Method}} & \multicolumn{4}{c}{\textbf{Feature factor}} & \multirow{2}{*}{\textbf{Dataset}} & \multirow{2}{*}{\textbf{Metric}}\\
+% \cmidrule(lr){2-5}
+% & \textbf{Wildfire} & \textbf{Soil} & \textbf{Terrian} & \textbf{Weather} & \\
+% \midrule
+% \cite{kern2017ml_pfdf} & \cmark & \cmark & \cmark & \cmark &  \\
+% \cite{nikolopoulos2018pfdf_rf} & \cmark & \cmark & \cmark & \cmark &  \\
+% \cite{orland2020hydrologic_dl} & \xmark & \cmark & \xmark & \cmark &  \\
+% \cite{tang2023discharge_thresholds} & \cmark & \xmark & \cmark & \cmark &  \\
+% \cite{movasat2026mudflow_ml} & \cmark & \cmark & \cmark & \cmark &  \\
+% \textbf{Ours} & \cmark & \cmark & \cmark & \cmark & \\
+% \bottomrule
+% \end{tabular}
+% }
+% \caption{Prior data-driven or physics-aware studies related to post-wildfire debris-flow prediction and the major physical factors represented in their inputs. Check marks indicate that the study explicitly models or measures the factor.}
+% \label{tab:prior_work}
+% \vspace{-6ex}
+% \end{table}
+
+
+
+Existing PFDF prediction work moves from empirical rainfall thresholds and fixed logistic-regression formulations toward broader data-driven models. Classical machine-learning studies showed that nonlinear classifiers can extract useful signal from rainfall, burn severity, soil, and basin morphology: \cite{kern2017ml_pfdf} compared multiple classifiers on intermountain western-US burn-basin data, while \cite{nikolopoulos2018pfdf_rf} found that random forests improved over rainfall thresholds and logistic regression on the western-US USGS database. More recent work has begun to reconnect learning with process understanding. \cite{tang2023discharge_thresholds} combined process-based runoff simulation with support vector machines to define post-fire discharge thresholds, and \cite{movasat2026mudflow_ml} used controlled flume experiments to study how rainfall intensity, slope, grain size, and soil hydrophobicity affect post-wildfire mudflow onset. Related landslide-warning research shows that deep learning can forecast hydrologic response from rainfall and soil moisture.
+
+
+% , and pore-pressure observations~\cite{orland2020hydrologic_dl}. 
+% Together, these studies establish the value of data-driven PFDF analysis, but they also leave a gap: prior work rarely combines field-scale.
+% FDF benchmarking, operational.
+% forecast-text context, curated soil--terrain--fire augmentation.
+% , and physically constrained neural interactions in one unified framework.
+
+Despite recent progress in data-driven PFDF prediction, existing studies remain fragmented across feature settings, model architectures, and evaluation protocols, making rigorous and fair comparison across methods difficult. In addition, most existing approaches rely on rainfall-specific statistics while overlooking the richer meteorological context and storm dynamics in operational weather forecast reports\footnote{\protect\url{https://www.weather.gov/lox/\#}}. Furthermore, the black-box nature of data-driven prediction, especially deep learning methods, limits interpretable scientific understanding of the mechanisms underlying PFDF formation.
+%
+To address these limitations, we present the first explainable benchmark for data-driven PFDF prediction. Our framework systematically incorporates physical and meteorological features as augmented contextual information and further introduces a reinforcement learning–based feature selection framework to identify globally and regionally important driving factors associated with PFDF occurrence. Our contributions are as follows:
+%
+% \newpage
+\begin{itemize}[leftmargin=*, itemsep=0pt]
+\item \textbf{Unified Data-driven PFDF Prediction Benchmark.} We review existing data-driven PFDF prediction methods and establish a unified benchmark for fair comparison and scientific insight derivation across diverse approaches.
+
+\item \textbf{Weather Feature Augmentation via LLM Processing.} We leverage LLM-based text processing to curate operational weather forecasts and USGS elevation products, extracting storm and terrain contextual signals to augment PFDF prediction.
+
+\item \textbf{Important Feature Selection.} We propose a feature selection framework based on reinforcement learning that identifies influential drivers by minimizing predictive distinctions between positive and negative groups, revealing key global and region-specific factors underlying PFDF formation.
+\end{itemize}

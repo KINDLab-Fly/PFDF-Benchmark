@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "historical_checkpoint_metrics": 640,
+  "benchmark_cells": 52,
+  "regional_cells": 40,
+  "historical_rl_policies": 50,
+  "feature_importance_rows": 230,
+  "mode": "Recomputed from historical checkpoint predictions, not copied from table CSVs or retrained."
+}

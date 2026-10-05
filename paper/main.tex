@@ -1,0 +1,279 @@
+\PassOptionsToPackage{table,dvipsnames}{xcolor}
+%%
+%% This is file `sample-sigconf-authordraft.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,proceedings,bibtex,authordraft')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf-authordraft.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf]{acmart}
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+
+
+%%COPYRIGHT HERE
+% \copyrightyear{2025}
+% \acmYear{2025}
+% \setcopyright{acmlicensed}\acmConference[SIGSPATIAL '25]{The 33rd ACM International Conference on Advances in Geographic Information Systems}{November 3--6, 2025}{Minneapolis, MN, USA}
+% \acmBooktitle{The 33rd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL '25), November 3--6, 2025, Minneapolis, MN, USA}
+% \acmDOI{10.1145/3748636.3763223}
+% \acmISBN{979-8-4007-2086-4/2025/11}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+\copyrightyear{2026}
+\acmYear{2026}
+\setcopyright{cc}
+\setcctype{by}
+\acmConference[AI Summit '26]{ACM AI Summit 2026}{August 31-September 02, 2026}{Atlanta, GA, USA}
+\acmBooktitle{ACM AI Summit 2026 (AI Summit '26), August 31-September 02, 2026, Atlanta, GA, USA}
+\acmDOI{10.1145/3806096.3844882}
+\acmISBN{979-8-4007-2638-5/2026/08}
+
+
+\usepackage{array,tabularx,multirow,makecell,bm,mathtools,nicefrac,enumitem}
+\usepackage{tcolorbox}
+\tcbuselibrary{listings,breakable,skins}
+\definecolor{ImproveOrange}{RGB}{255,230,200}
+\definecolor{NoChangeGray}{RGB}{235,235,235}
+\definecolor{DecreaseBlue}{RGB}{220,235,250}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\setlength{\emergencystretch}{1em}
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+
+
+\title{Towards Explainable Benchmarking for Data-driven Post-Wildfire Debris Flow Prediction}
+
+
+\author{Zhisheng Qi}
+\email{Zhisheng.Qi@uga.edu}
+\affiliation{%
+  \institution{University of Georgia}
+  \city{Athens}
+  \state{Georgia}
+  \country{USA}
+}
+
+\author{Li Zhu}
+\email{ryanlizhu@uga.edu}
+\affiliation{%
+  \institution{University of Georgia}
+  \city{Athens}
+  \state{Georgia}
+  \country{USA}
+}
+
+\author{Utkarsh Sahu}
+\email{utkarsh@uoregon.edu}
+\affiliation{%
+  \institution{University of Oregon}
+  \city{Eugene}
+  \state{Oregon}
+  \country{USA}
+}
+
+\author{Douglas Tommey}
+\email{drt@uoregon.edu}
+\affiliation{%
+ \institution{University of Oregon}
+ \city{Eugene}
+  \state{Oregon}
+ \country{USA}}
+
+\author{Josh Roering}
+\email{jroering@uoregon.edu}
+\affiliation{%
+ \institution{University of Oregon}
+ \city{Eugene}
+  \state{Oregon}
+ \country{USA}}
+
+
+\author{Yu Wang}
+\email{yu.wang6@uga.edu}
+\affiliation{%
+  \institution{University of Georgia}
+  \city{Athens}
+  \state{Georgia}
+  \country{USA}}
+  
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Qi et al.}
+
+\begin{abstract}
+Post-wildfire debris flows (PFDFs) are destructive sediment-laden hazards triggered when intense rainfall strikes recently burned terrain, destabilizing hillslopes and threatening infrastructure, local economies, and community safety.
+%
+Data-driven methods have been proposed to learn predictive patterns directly from historical PFDF observations. However, the current research landscape of data-driven PFDF prediction remains highly fragmented across feature spaces, model architectures, and evaluation protocols, making rigorous comparison and the derivation of scientific insights difficult. 
+%
+Moreover, existing studies lack a systematic investigation into the relative importance of heterogeneous factors (e.g., meteorological conditions, terrain characteristics, soil properties, and burn severity) in triggering PFDF.
+%
+To address these limitations, we present unified benchmark for data-driven PFDF prediction, enabling fair and comprehensive evaluation across diverse models and feature configurations. Furthermore, to better understand underlying drivers of PFDF formation, we propose a reinforcement learning–based feature selection framework that identifies factors whose perturbations render positive and negative events indistinguishable, discovering the regional underlying mechanisms of PFDF occurrence across regions. Our code and benchmark are publicly available at \url{https://github.com/KINDLab-Fly/PFDF-Benchmark}.
+
+% the underlying working mechanisms and 
+
+% To further alleviate the black-box nature of purely learning-based predictions, we provide interpretable insights into the dominant drivers and governing mechanisms underlying PFDF formation.
+%
+% \textcolor{orange}{Extensive experiments demonstrate the effectiveness of benchmark and the feature importance.}
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10002951.10003227.10003351</concept_id>
+       <concept_desc>Information systems~Data mining</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Information systems~Data mining}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+
+\keywords{Post-Wildfire Debris Flow, Text Processing, Explainability}
+%%No need for manuscript revision information
+% \received{20 February 2007}
+% \received[revised]{12 March 2009}
+% \received[accepted]{5 June 2009}
+
+
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+
+\maketitle
+
+\input{introduction}
+
+\input{preliminary}
+
+\input{physics_model}
+
+\input{experiment}
+
+\input{conclusion}
+
+
+% \begin{acks}
+% This work is supported 
+% \end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{main}
+
+
+
+%% If your work has an appendix, this is the place to put it.
+%\appendix
+
+% \clearpage
+% \section{Online Resources}
+
+% Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
+% pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
+% enim maximus. Vestibulum gravida massa ut felis suscipit
+% congue. Quisque mattis elit a risus ultrices commodo venenatis eget
+% dui. Etiam sagittis eleifend elementum.
+
+% Nam interdum magna at lectus dignissim, ac dignissim lorem
+% rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
+% massa et mattis lacinia.
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf-authordraft.tex'.
